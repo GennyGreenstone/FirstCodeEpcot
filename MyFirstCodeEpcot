@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+            
+            body {background-color: rgb(206, 233, 235);}
+            #disney {color: rgb(15, 20, 117);}
+            
+            #disney-sign {color: rgb(24, 31, 168);}
+            
+            #places {background-color: rgb(184, 167, 199);}
+            
+            h2 {color: rgb(209, 39, 209);}
+            
+            .epcot-things {color: rgb(138, 12, 138);}
+            
+            .attractions {color: rgb(202, 8, 212);}
+            
+            #attractions {background-color: rgb(230, 209, 230);}
+            
+            
+        </style>
+    </head>
+    <body>
+    
+        <h1 id="disney">Travel to Epcot at Disney World</h1>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Disney_World_-_Entrance_sign_-_by_inkiboo.jpg/1200px-Disney_World_-_Entrance_sign_-_by_inkiboo.jpg" width="500">
+        
+        <p id="disney-sign"> Travel around the world all in one place, at <em><strong>the happiest place on earth</strong></em>!</p>
+        
+        <h2>What You'll See</h2>
+        
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/45/Spaceship_Earth_with_Mickey%27s_Wand.jpg" alt="Spaceship Earth at Epcot" width="400">
+        
+        <p class="epcot-things"> Epcot has many places to go and things to see, among them the hardest to miss is the giant ball called <em><strong>Spaceship Earth</strong></em>. It sits center front of the park.</p>
+        
+        <p class="epcot-things"> You will also be able to <em>visit places around the world</em> like:</p>
+        
+        <ul class="epcot-things" id="places">
+            <li>Canada</li>
+            <li>France</li>
+            <li>The United Kingdom</li>
+            ...and many more!
+        </ul>
+        
+        <p class="attractions">There are many things you should do while here such as:</p>
+        <ol class="attractions" id="attractions">
+            <li>Enjoy food and beverage from many different countries</li>
+            <li>Go on rollercoasters and other rides</li>
+            and
+            <li>See the beautiful fireworks show at the end of the night</li>
+        </ol>
+        
+    </body>
+</html>
